@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Outfit',sans-serif;
+    min-height: 100vh;
+}
+.container{
+    box-shadow: rgb(65, 64, 64) 0px 3px 8px;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+.container-left{
+    background-image: linear-gradient(180deg,hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 15px;
+    width: 230px;
+    height: 320px;
+}
+.container-left .result{
+    color:  hsl(0, 6%, 90%);
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    padding-bottom: 35px;
+    text-align: center;
+}
+.container-left .marks{
+    display: flex;
+    background-image: linear-gradient(170deg, hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    padding: 20px;
+    width: 83px;
+    height: 83px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: -15px auto -15px auto;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.container-left .marks .obtained{
+    color: hsl(0, 0%, 100%);
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.container-left .marks .total{
+    color: hsl(0, 6%, 90%);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+}
+.great{
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    padding-top: 37px;
+    font-family: sans-serif;
+}
+.text{
+    justify-content: space-evenly;
+    text-align: center;
+    color: hsl(0, 6%, 90%);
+    padding-left: 21px;
+    padding-right: 21px;
+    padding-top: 14px;
+    padding-bottom: 40px;
+    font-size: 13.5px;
+}
+.container-right{
+    width: 230px;
+    padding-left: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.container-right .summary{
+    color: hsl(224, 30%, 27%);
+    padding-top: 15px;
+    padding-left: 5px;
+    padding-bottom: 10px;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+
+.card-1,.card-2,.card-3,.card-4{
+    padding: 10px;
+    padding-right: 30px;
+    width: 70%;
+    font-size: 13px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.card-1{
+    background-color: rgb(250, 228, 228);
+    border-radius: 15px;
+}
+.card-2{
+    background-color: rgb(247, 239, 212);
+    border-radius: 15px;
+}
+.card-3{
+    background-color: rgb(228, 250, 232);
+    border-radius: 15px;
+}
+.card-4{
+    background-color: rgb(228, 231, 250);
+    border-radius: 15px;
+}
+.reaction{
+    color: red;
+}
+.memory{
+    color: orange;
+}
+.verbal{
+    color: green;
+}
+.visual{
+    color: blue;
+}
+.score{
+    color: hsl(224, 30%, 27%);
+    font-weight: bold;
+}
+.full{
+    color: grey;
+}
+.btn-primary{
+    padding-left:5px ;
+    justify-content: center;
+    align-items: center;
+}
+.main-btn{
+    width: 90%;
+    height: 40px;
+    background:   hsl(224, 30%, 27%);
+    color: white;
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: bold;
+    border-radius: 40px;
+    border: none;
+    display: block;
+    align-items: center;
+}
